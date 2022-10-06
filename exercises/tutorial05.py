@@ -11,8 +11,9 @@ def explore_stack():
     stack.append(Mate("Dan", 5))
     stack.append(Mate("Emile", 2))
 
-    print(stack)
-
+    while len(stack) > 0:
+        a = stack.pop()
+        print(a)
 
 def explore_queue():
     queue = list()
